@@ -169,7 +169,7 @@ under the License.
 		-->
 		<minikdc.version>3.2.4</minikdc.version>
 		<hive.version>2.3.9</hive.version>
-		<orc.version>1.5.6</orc.version>
+		<orc.version>1.7.10</orc.version>
 		<!--
 			Hive 2.3.4 relies on Hadoop 2.7.2 and later versions.
 			For Hadoop 2.7, the minor Hadoop version supported for flink-shaded-hadoop-2-uber is 2.7.5
@@ -1199,8 +1199,7 @@ under the License.
 									<stylesheet>plain.xsl</stylesheet>
 
 									<fileMappers>
-										<fileMapper
-											implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+										<fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
 											<targetExtension>.html</targetExtension>
 										</fileMapper>
 									</fileMappers>
@@ -1417,7 +1416,7 @@ under the License.
 						<license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
 							<licenseFamilyCategory>AL2 </licenseFamilyCategory>
 							<licenseFamilyName>Apache License 2.0</licenseFamilyName>
-							<notes />
+							<notes/>
 							<patterns>
 								<pattern>Licensed to the Apache Software Foundation (ASF) under one</pattern>
 							</patterns>
@@ -1993,7 +1992,7 @@ under the License.
 								<order>org.apache.flink,org.apache.flink.shaded,,javax,java,scala,\#</order>
 							</importOrder>
 
-							<removeUnusedImports />
+							<removeUnusedImports/>
 						</java>
 					</configuration>
 					<executions>
