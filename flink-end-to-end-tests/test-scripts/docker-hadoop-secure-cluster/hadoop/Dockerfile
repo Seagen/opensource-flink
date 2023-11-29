@@ -24,7 +24,7 @@
 #
 # Creates multi-node, kerberized Hadoop cluster on Docker
 
-FROM openjdk:8
+FROM openjdk:22-ea-22
 
 RUN set -x \
     && addgroup hadoop \
