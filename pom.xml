@@ -154,7 +154,7 @@ under the License.
 		<hamcrest.version>1.3</hamcrest.version>
 		<assertj.version>3.23.1</assertj.version>
 		<py4j.version>0.10.9.3</py4j.version>
-		<beam.version>2.38.0</beam.version>
+		<beam.version>2.55.0</beam.version>
 		<protoc.version>3.21.7</protoc.version>
 		<okhttp.version>3.14.9</okhttp.version>
 		<testcontainers.version>1.17.2</testcontainers.version>
@@ -175,7 +175,7 @@ under the License.
 			For Hadoop 2.7, the minor Hadoop version supported for flink-shaded-hadoop-2-uber is 2.7.5
 		-->
     snyk-fix-d2bad629cd0bb7f13dbc94ce31e9a193
-		<hivemetastore.hadoop.version>3.1.3</hivemetastore.hadoop.version
+		<hivemetastore.hadoop.version>3.1.3</hivemetastore.hadoop.version>
 		<japicmp.referenceVersion>1.16.0</japicmp.referenceVersion>
 		<japicmp.outputDir>tools/japicmp-output</japicmp.outputDir>
 		<spotless.version>2.27.1</spotless.version>
