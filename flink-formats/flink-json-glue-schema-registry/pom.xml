@@ -32,7 +32,7 @@ under the License.
 	<packaging>jar</packaging>
 
 	<properties>
-		<glue.schema.registry.version>1.1.14</glue.schema.registry.version>
+		<glue.schema.registry.version>1.1.17</glue.schema.registry.version>
 		<aws.sdkv2.version>2.17.247</aws.sdkv2.version>
 		<netty.version>4.1.68.Final</netty.version>
 		<kotlin.version>1.7.10</kotlin.version>
